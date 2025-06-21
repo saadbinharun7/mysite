@@ -1,0 +1,24 @@
+.header{
+    background-color: #4ddb52;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.header1 {
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: "press start 2p", sans-serif;
+}
+.header2 {
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+.aboutme {
+    background-color: #deffdf;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
