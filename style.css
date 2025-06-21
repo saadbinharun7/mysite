@@ -1,5 +1,5 @@
 .header{
-    background-color: #4ddb52;
+    background: linear-gradient(to top, #4ddb52, #02a307);
     color: white;
     padding: 15px;
     text-align: center;
@@ -15,10 +15,101 @@
     font-size: 15px;
     margin-top: 15px;
     font-family: sans-serif;
+    font-style: italic;
 }
 .aboutme {
     background-color: #deffdf;
     padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: #4ddb52 solid 2px;
+}
+.aboutme-header {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #02a307;
+}
+.aboutme-content {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+}
+
+.skills {
+    background-color: #deffdf;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: #4ddb52 solid 2px;
+}
+.skills-header {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #02a307;
+}
+.skills-text {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+}
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #9fffa2;
+    border-radius: 5px;
+    color: black;
+}
+li:hover {
+    background-color: #4ddb52;
+    color: white;
+}
+.projects {
+    background-color: #deffdf;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: #4ddb52 solid 2px;
+}
+.projects-header {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #02a307;
+}
+.projects-text {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+}
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table, th, td {
+    border: 1px solid #9fffa2;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #9fffa2;
+    color: #02a307;
+    font-style: bold;
+}
+
+.footer {
+    background-color: #4ddb52;
+    color: white;
+    text-align: center;
+    padding: 2px;
     margin: 20px;
     border-radius: 10px;
 }
